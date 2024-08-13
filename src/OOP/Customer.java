@@ -42,5 +42,10 @@ with returnType  and No paramters
              discountPercentage = 5;
          return discountPercentage;
     }
-
+    /* with returnType and with Parameters
+     */
+    double finalProdcutPriceAtferDiscount( double productPrice){
+        double discountPrice = discountPercentageByGrade();
+        return productPrice - (productPrice * discountPrice) / 100;
+    }
 }

@@ -39,5 +39,7 @@ public class Main {
         System.out.println( customer1.name + " 's DiscountPercentage is : " + customer1.discountPercentageByGrade());
         System.out.println( customer2.name + " 's DiscountPercentage is : " + customer2.discountPercentageByGrade());
         System.out.println( customer3.name + " 's DiscountPercentage is : " + customer3.discountPercentageByGrade());
+        System.out.println("Final ProductPrice for " + customer1.name + " is $ : " + customer1.finalProdcutPriceAtferDiscount(25000));
+        System.out.println("Final ProductPrice for " + customer2.name + " is $ : " + customer2.finalProdcutPriceAtferDiscount(25000));
     }
 }
