@@ -9,10 +9,36 @@ public class Customer {
     int salary;
     byte grade;
 
+
+// No argument Constructor
+    Customer (){
+     id = 11;
+     name = "reddy";
+     email = "reddy@gmail.com";
+     rollNo = "21HM1A0410";
+     PhoneNO = "9646864954";
+     grade = 8;
+     salary = 20002;
+    System.out.println("constructor is called..");
+    }
+    Customer(int id,String name,String PhoneNo,String rollNo,String email,int salary,Byte grade){
+        this.id =id;
+        this.name =name;
+        this.PhoneNO = PhoneNo;
+        this.salary = salary;
+        this.rollNo = rollNo;
+        this.grade = grade;
+        this.email = email;
+        Config();
+    }
+public  void  Config(){
+    System.out.println("configuration of customer3");
+}
+
     /*
     without return type and without parameter
      */
-    void displayDetails(){
+    public void displayDetails(){
         System.out.println("id  : " + id);
         System.out.println("Name : " + name);
         System.out.println("Salery : "  + salary);

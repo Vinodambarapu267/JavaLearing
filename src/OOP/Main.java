@@ -2,9 +2,8 @@ package OOP;
 
 public class Main {
     public static void main(String[] args) {
-        int x;
-        x = 100;
         Customer customer1 = new Customer();
+        customer1.displayDetails();
         customer1.id = 111;
         customer1.name = "Vinod";
         customer1.grade = 9;
@@ -30,15 +29,16 @@ public class Main {
          */
         customer1.displayMembership("Diamond");
         customer2.displayMembership("GOLD");
-        /* with Retuntype and without parameters
-         */
-         /*byte discountPercentage = customer1.discountPercentageByGrade();
-        System.out.println( customer1.name + " 's DiscountPercentage is : " + discountPercentage);
-        System.out.println( customer2.name + " 's DiscountPercentage is : " + discountPercentage);
-          */
+        /* with Returntype and without parameters */
+
+//         byte discountPercentage = customer1.discountPercentageByGrade();
+//         System.out.println( customer1.name + " 's DiscountPercentage is : " + discountPercentage);
+//         System.out.println( customer2.name + " 's DiscountPercentage is : " + discountPercentage);
+
         System.out.println( customer1.name + " 's DiscountPercentage is : " + customer1.discountPercentageByGrade());
         System.out.println( customer2.name + " 's DiscountPercentage is : " + customer2.discountPercentageByGrade());
         System.out.println( customer3.name + " 's DiscountPercentage is : " + customer3.discountPercentageByGrade());
+        /* with ReturnType and Parameter */
         System.out.println("Final ProductPrice for " + customer1.name + " is $ : " + customer1.finalProdcutPriceAtferDiscount(25000));
         System.out.println("Final ProductPrice for " + customer2.name + " is $ : " + customer2.finalProdcutPriceAtferDiscount(25000));
     }
