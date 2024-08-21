@@ -11,7 +11,7 @@ public class Customer {
 
 
 // No argument Constructor
-    Customer (){
+   public Customer (){
      id = 11;
      name = "reddy";
      email = "reddy@gmail.com";
@@ -21,15 +21,14 @@ public class Customer {
      salary = 20002;
     System.out.println("constructor is called..");
     }
-    Customer(int id,String name,String PhoneNo,String rollNo,String email,int salary,Byte grade){
-        this.id =id;
-        this.name =name;
-        this.PhoneNO = PhoneNo;
-        this.salary = salary;
+    public Customer(int id, String name, String rollNo, String PhoneNO, String email, int salary, byte grade) {
+        this.id = id;
+        this.name = name;
         this.rollNo = rollNo;
-        this.grade = grade;
+         this.PhoneNO = PhoneNO;
         this.email = email;
-        Config();
+        this.salary = salary;
+        this.grade = grade;
     }
 public  void  Config(){
     System.out.println("configuration of customer3");
