@@ -1,4 +1,4 @@
-package com.javaproject.java;
+package com.javaproject.java.Basicconcept;
 
 public class loopStatements {
     public static void main(String[] args) {
