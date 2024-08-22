@@ -1,4 +1,4 @@
-package OOP;
+package com.javaproject.java.OOP;
 
 public class ConstructorTest {
     public static void main(String[] args) {

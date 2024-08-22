@@ -1,8 +1,8 @@
-package OOP;
+package com.javaproject.java.OOP;
 
 public class Customer {
     int id;
-    String name;
+  public   String name;
     String rollNo;
     String PhoneNO;
     String email;
