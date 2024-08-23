@@ -8,9 +8,6 @@ public class Customer {
     String email;
     int salary;
     byte grade;
-
-
-// No argument Constructor
    public Customer (){
      id = 11;
      name = "reddy";
@@ -74,3 +71,5 @@ with returnType  and No paramters
         return productPrice - (productPrice * discountPrice) / 100;
     }
 }
+
+
