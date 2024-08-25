@@ -8,7 +8,9 @@ public class Main {
 //        CustomerService customerService = new CustomerService();
 //        customerService.addCustomertoDb(customer);
             MYSQLRepository repository = new MYSQLRepository();
+            PostGreSQLRepository repository1 = new PostGreSQLRepository();
             CustomerServiceImpl customerService = new CustomerServiceImpl(repository);
             customerService.addCustomertoDb(customer);
+            customerService.displayDetails(customer);
     }
 }

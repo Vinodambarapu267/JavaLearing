@@ -27,4 +27,5 @@ public class Customer {
         this.salary = salary;
         this.grade = grade;
     }
+
 }
