@@ -1,4 +1,4 @@
-package com.javaproject.java.OOP;
+package com.javaproject.java.OOP.ObjectsCreation;
 
 public class Test {
     void test(){
