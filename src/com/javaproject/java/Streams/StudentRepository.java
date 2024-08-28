@@ -10,26 +10,26 @@ public class StudentRepository {
 
     public StudentRepository(){
         this.studentsList = new ArrayList<>();
-        studentsList.add(new StudentsBuilder().setName("Alice Smith").setGender("Female").setId(101).setDepartment("Computer Science").setGrade(3.5).createStudents());
-        studentsList.add(new StudentsBuilder().setName("Bob Johnson").setGender("Male").setId(102).setDepartment("Mechanical Engineering").setGrade(3.7).createStudents());
-        studentsList.add(new StudentsBuilder().setName("Carol Williams").setGender("Female").setId(103).setDepartment("Electrical Engineering").setGrade(3.2).createStudents());
-        studentsList.add(new StudentsBuilder().setName("David Brown").setGender("Male").setId(104).setDepartment("Civil Engineering").setGrade(2.9).createStudents());
-        studentsList.add(new StudentsBuilder().setName("Eve Davis").setGender("Female").setId(105).setDepartment("Biotechnology").setGrade(3.8).createStudents());
-        studentsList.add(new StudentsBuilder().setName("Frank Miller").setGender("Male").setId(106).setDepartment("Computer Science").setGrade(3.4).createStudents());
-        studentsList.add(new StudentsBuilder().setName("Grace Wilson").setGender("Female").setId(107).setDepartment("Information Technology").setGrade(3.6).createStudents());
-        studentsList.add(new StudentsBuilder().setName("Henry Moore").setGender("Male").setId(108).setDepartment("Physics").setGrade(2.8).createStudents());
-        studentsList.add(new StudentsBuilder().setName("Ivy Taylor").setGender("Female").setId(109).setDepartment("Mathematics").setGrade(3.9).createStudents());
-        studentsList.add(new StudentsBuilder().setName("Jack Anderson").setGender("Male").setId(110).setDepartment("Computer Science").setGrade(3.3).createStudents());
-        studentsList.add(new StudentsBuilder().setName("Kim Lee").setGender("Female").setId(111).setDepartment("Electrical Engineering").setGrade(3.5).createStudents());
-        studentsList.add(new StudentsBuilder().setName("Liam Harris").setGender("Male").setId(112).setDepartment("Biotechnology").setGrade(3.2).createStudents());
-        studentsList.add(new StudentsBuilder().setName("Mia Clark").setGender("Female").setId(113).setDepartment("Mechanical Engineering").setGrade(3.7).createStudents());
-        studentsList.add(new StudentsBuilder().setName("Noah Lewis").setGender("Male").setId(114).setDepartment("Civil Engineering").setGrade(3.1).createStudents());
-        studentsList.add(new StudentsBuilder().setName("Olivia Walker").setGender("Female").setId(115).setDepartment("Physics").setGrade(3.9).createStudents());
-        studentsList.add(new StudentsBuilder().setName("Paul Hall").setGender("Male").setId(116).setDepartment("Information Technology").setGrade(3.2).createStudents());
-        studentsList.add(new StudentsBuilder().setName("Quinn Young").setGender("Female").setId(117).setDepartment("Computer Science").setGrade(3.6).createStudents());
-        studentsList.add(new StudentsBuilder().setName("Ryan King").setGender("Male").setId(118).setDepartment("Mechanical Engineering").setGrade(2.7).createStudents());
-        studentsList.add(new StudentsBuilder().setName("Sophia Wright").setGender("Female").setId(119).setDepartment("Electrical Engineering").setGrade(3.8).createStudents());
-        studentsList.add(new StudentsBuilder().setName("Tom Scott").setGender("Male").setId(120).setDepartment("Civil Engineering").setGrade(3.4).createStudents());
+        studentsList.add(new Students("Alice Smith","Female",101,"Computer Science",3.5));
+        studentsList.add(new Students("Bob Johnson","Male",102,"Mechanical Engineering",3.7));
+        studentsList.add(new Students("Carol Williams","Female",103,"Electrical Engineering",3.2));
+        studentsList.add(new Students("David Brown","Male",104,"Civil Engineering",2.9));
+        studentsList.add(new Students("Eve Davis","Female",105,"Biotechnology",3.8));
+        studentsList.add(new Students("Frank Miller","Male",106,"Computer Science",3.4));
+        studentsList.add(new Students("Grace Wilson","Female",107,"Information Technology",3.6));
+        studentsList.add(new Students("Henry Moore","Male",108,"Physics",2.8));
+        studentsList.add(new Students("Ivy Taylor","Female",109,"Mathematics",3.9));
+        studentsList.add(new Students("Jack Anderson","Male",110,"Computer Science",3.3));
+        studentsList.add(new Students("Kim Lee","Female",111,"Electrical Engineering",3.5));
+        studentsList.add(new Students("Liam Harris","Male",112,"Biotechnology",3.2));
+        studentsList.add(new Students("Mia Clark","Female",113,"Mechanical Engineering",3.7));
+        studentsList.add(new Students("Noah Lewis","Male",114,"Civil Engineering",3.1));
+        studentsList.add(new Students("Olivia Walker","Female",115,"Physics",3.9));
+        studentsList.add(new Students("Paul Hall","Male",116,"Information Technology",3.2));
+        studentsList.add(new Students("Quinn Young","Female",117,"Computer Science",3.6));
+        studentsList.add(new Students("Ryan King","Male",118,"Mechanical Engineering",2.7));
+        studentsList.add(new Students("Sophia Wright","Female",119,"Electrical Engineering",3.8));
+        studentsList.add(new Students("Tom Scott","Male",120,"Civil Engineering",3.4));
     }
 
 
